@@ -1,2 +1,2 @@
 ---
-include_tasks: motd.yml
+- include_tasks: motd.yml
