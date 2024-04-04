@@ -1,0 +1,5 @@
+- hosts: "{{ my_hosts }}"
+  tasks:
+    - import_role:
+        name: ../roles/services/motd
+
