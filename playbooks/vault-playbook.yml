@@ -1,3 +1,4 @@
 - hosts: "{{my_hosts}}"
   tasks:
-   - import_role: ../roles/services/vault
+   - import_role: 
+       name: ../roles/services/vault
