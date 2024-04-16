@@ -1,0 +1,6 @@
+---
+
+- name: template vault file
+  ansible.builtin.template:
+    src: file1.j2
+    dest: /etc/vault_test_file.txt
