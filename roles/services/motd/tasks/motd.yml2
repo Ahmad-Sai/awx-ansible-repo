@@ -1,7 +1,0 @@
-- name: set motd
-  template:
-    src: motd.j2
-    dest: /etc/ssh/banner
-    owner: root
-    group: root
-    mode: 0644
